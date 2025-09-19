@@ -1,7 +1,16 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+source "https://rubygems.org"
 
-gem "just-the-docs", "0.10.1" # pinned to the current release
-# gem "just-the-docs"        # always download the latest release
+gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
+
+gem "html-proofer", "~> 5.0", group: :test
+
+#platforms :mingw, :x64_mingw, :mswin, :jruby do
+platforms :windows do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
+end
+
+#gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.2.0", platforms: :windows
