@@ -38,7 +38,7 @@ github:
 social:
   # displayed as the default author of the posts and the copyright owner in the footer
   name: Bharath Ramanna
-  #email: example@domain.com
+  email: bharthu.code@gmail.com
   links:
     # first element serves as the copyright owner's link
     - https://github.com/bharthu58
@@ -83,7 +83,7 @@ analytics:
 # and there will be a toggle to switch the theme between dark
 # and light on the bottom left of the sidebar.
 # available options: light, dark
-theme_mode: dark
+theme_mode: light
 
 # CDN endpoint for media resources
 # note: once assigned, the CDN URL will be added to all media resource paths

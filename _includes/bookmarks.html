@@ -1,0 +1,16 @@
+<ul>
+{% for item in include.items %}
+  {% if item.links %}
+    <li class="folder">
+      <strong>{{ item.category }}</strong>
+      {% include bookmarks.html items=item.links %}
+    </li>
+  {% else %}
+    <li class="bookmark" data-tags="{{ item.tags | join: ' ' }}">
+      <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+      {% if item.excerpt %}<p>{{ item.excerpt }}</p>{% endif %}
+      {% if item.tags %}<small>Tags: {{ item.tags | join: ', ' }}</small>{% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
