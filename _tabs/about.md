@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-This is the personal blog of Bharath Ramanna.
+This is the personal blog of Bharathkumar Ramanna.
 
 I'm a software engineer from Princeton, NJ (USA). 
 I have over 25 years experience as a professional software engineer, and have

@@ -1,6 +1,6 @@
 # bharthu58.github.io
 
-This repo contains the code for Bharath Ramanna's personal blog website,
+This repo contains the code for Bharathkumar Ramanna's personal blog website,
 located at: [https://bharthu58.github.io][blog-home].
 
 It's hosted on [GitHub Pages][gh-pages], made with

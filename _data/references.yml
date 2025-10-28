@@ -1,5 +1,19 @@
+- title: Awesome Modern C++
+  url: https://awesomecpp.com/
+  description: A collection of resources on modern C++.
+  tags: [cpp, modernc++]
+
+- title: cppreference
+  url: https://en.cppreference.com/w/
+  description: Comprehensive reference for C++ language and standard library.
+  tags: [cpp, reference]
+
+- title: Isocpp
+  url: https://isocpp.org
+  description: The home of Standard C++ on the web — news, status and discussion about the C++ standard on all compilers and platforms.
+  tags: [cpp, reference]
+
 - title: Lonely Planet Guides
   url: https://www.lonelyplanet.com
   description: Destination guides, tips, and inspiration.
   tags: [travel, planning]
-

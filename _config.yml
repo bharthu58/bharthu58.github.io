@@ -10,19 +10,19 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 
 # main title
-title: Bharath Ramanna
+title: Bharathkumar Ramanna
 
 # subtitle
 tagline: Blog
 
 # used by seo meta and the atom feed
-description: Blog by Bharath Ramanna
+description: Blog by Bharathkumar Ramanna
 
 # protocol & hostname for your site (it does not end with a '/')
 url: https://bharthu58.github.io
 
 author:
-  name: Bharath Ramanna
+  name: Bharathkumar Ramanna
   # sets the `author.url` property. helps Google to disambiguate the correct author of articles
   url: https://github.com/bharthu58
 
@@ -37,7 +37,7 @@ github:
 
 social:
   # displayed as the default author of the posts and the copyright owner in the footer
-  name: Bharath Ramanna
+  name: Bharathkumar Ramanna
   email: bharthu.code@gmail.com
   links:
     # first element serves as the copyright owner's link
