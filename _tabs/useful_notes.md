@@ -1,4 +1,9 @@
-# RBK Useful Notes
+---
+# the default layout is 'page'
+icon: fas fa-sticky-note
+title: RBK Useful Notes
+order: 5.1
+---
 
 ## WSL Installation on Windows
 
