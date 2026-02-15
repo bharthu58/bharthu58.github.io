@@ -8,7 +8,14 @@ order: 5
 
 <input type="text" id="search" placeholder="Search bookmarks..." style="width: 100%; padding: 8px; margin: 12px 0;">
 
-<div id="tags"></div>
+<!-- Quick link to the separate C++ Links page (opens separate page) -->
+<ul id="bookmark-list-quick">
+  <li class="reference quick-link" data-tags="cpp">
+    <a href="/cpp-links/">C++ Links</a>
+    <p>Curated C++ resources (opens separate page).</p>
+    <small>Tags: C++, links</small>
+  </li>
+</ul>
 
 <ul id="bookmark-list">
   {% for item in site.data.references %}

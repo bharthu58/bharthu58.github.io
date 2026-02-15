@@ -2,12 +2,8 @@
 # the default layout is 'page'
 icon: fas fa-bookmark
 title: C++ Links
-order: 6
+permalink: /cpp-links/
 ---
-
-<!-- <h1>{{ page.title }}</h1> 
-<input type="text" id="search" placeholder="Search bookmarks..." style="width:100%; padding:8px; margin:12px 0;">
--->
 
 <div class="cpp-links">
   <ul>
@@ -27,3 +23,5 @@ order: 6
   padding: 2rem;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
+</style>
+---
