@@ -108,3 +108,5 @@ This approach makes development faster and more efficient.
 
 - **Gemini CLI Companion**: CLI integration of Gemini Agent into VS Code (similar to Claude Code)
 - **Gemini Code Assist**: Chat integration of Gemini into VS Code
+- **Google Cloud Console(RBK)**: [https://console.cloud.google.com/welcome/new?project=project-2ed1d764-9372-47f7-a24](https://console.cloud.google.com/welcome/new?project=project-2ed1d764-9372-47f7-a24)
+
