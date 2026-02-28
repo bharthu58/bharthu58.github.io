@@ -13,6 +13,16 @@
   description: The home of Standard C++ on the web — news, status and discussion about the C++ standard on all compilers and platforms.
   tags: [cpp, reference]
 
+- title: Awesome Github Takeout
+  url: https://cgoldberg.github.io/posts/githubtakeout/
+  description: Export and Archive GitHub Repositories.
+  tags: [github, reference]
+
+- title: PyPI Publish
+  url: https://cgoldberg.github.io/posts/release-a-pypi-package/
+  description: How to Publish a Python Package on PyPI.
+  tags: [python, reference]
+
 - title: Lonely Planet Guides
   url: https://www.lonelyplanet.com
   description: Destination guides, tips, and inspiration.
