@@ -39,7 +39,7 @@ Scan the week's daily bullets. For each one:
 Use `03_Reviews/Week_XX_Review.md`. Be honest: what worked, what didn't, biggest mistake, key insight.
 
 **Step 3 — Crystallize learnings into the wiki**
-For anything in the review that has lasting value (a pattern, a technique, a design decision), open `_templates/HFT-Crystallize.md`, fill it out, run `/wiki-crystallize`. Link the result from the [CPP](/wiki/cpp/) MOC.
+For anything in the review that has lasting value (a pattern, a technique, a design decision), open `_templates/HFT-Crystallize.md`, fill it out, run `/wiki-crystallize`. Link the result from the CPP MOC.
 
 ---
 
@@ -83,7 +83,7 @@ Fill out _templates/HFT-Crystallize.md
         ↓
 Run /wiki-crystallize
         ↓
-Link new page from [CPP](/wiki/cpp/) MOC
+Link new page from CPP MOC
 ```
 
 The bootcamp is where you learn. The wiki is where you keep it.

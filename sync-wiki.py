@@ -69,7 +69,9 @@ def convert_wikilinks(text: str, slug_map: dict[str, str]) -> str:
         # skip bare image file links
         if any(page.lower().endswith(ext) for ext in IMAGE_EXTS):
             return ""
-        slug = slug_map.get(page, slugify(page))
+        slug = slug_map.get(page)
+        if slug is None:
+            return alias  # unresolved wikilink → plain text
         return f"[{alias}](/wiki/{slug}/)"
 
     return re.sub(r"!?\[\[([^\]]+)\]\]", replace, text)
