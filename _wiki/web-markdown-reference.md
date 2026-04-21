@@ -39,7 +39,7 @@ title: "WEB — Markdown Reference"
 ## Links
 
 ```markdown
-[My First Note](/wiki/my-first-note/)                        (Obsidian wikilink)
+My First Note                        (Obsidian wikilink)
 [Link Text](https://example.com)         (standard Markdown link)
 ```
 

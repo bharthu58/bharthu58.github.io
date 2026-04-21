@@ -31,10 +31,10 @@ Source: Sagar @ Towards Dev (2026-04-14). Companion images in `ingested/assets/`
 | `std::jthread` + `stop_token` | C++20* | Cooperative cancellation avoids wasteful polling & forced termination |
 | Coroutines (`co_await`) | C++20 | Stackless suspend/resume without thread overhead. Async I/O gains |
 | `std::assume_aligned` | C++20 | Alignment hint to compiler for SIMD vectorisation & cache perf |
-| `[no_unique_address](/wiki/nouniqueaddress/)` | C++20 | Empty base optimisation without inheritance. Smaller object layout |
+| `no_unique_address` | C++20 | Empty base optimisation without inheritance. Smaller object layout |
 | `std::flat_map` / `flat_set` | C++23 | Contiguous memory layout for cache-friendly sorted containers |
 | `std::unreachable()` | C++23 | UB hint — lets compiler optimise dead branches & switch stmts |
-| `[likely](/wiki/likely/)` / `[unlikely](/wiki/unlikely/)` | C++20 | Branch prediction hints for hot paths |
+| `likely` / `unlikely` | C++20 | Branch prediction hints for hot paths |
 
 ---
 
@@ -81,13 +81,13 @@ Source: Sagar @ Towards Dev (2026-04-14). Companion images in `ingested/assets/`
 | Concepts (Constraint Safety) | C++20 | Catch type errors at call site, not deep in template instantiation |
 | `constinit` (safety) | C++20 | Prevents accidental dynamic init of global/static variables |
 | `std::expected<T, E>` | C++23 | Type-safe error handling without exceptions. Value-or-error pattern |
-| `[nodiscard("reason")](/wiki/nodiscardreason/)` | C++20 | Custom warning messages when return values are discarded |
+| `nodiscard("reason")` | C++20 | Custom warning messages when return values are discarded |
 | `std::bit_cast` | C++20 | Safe type punning — replacement for `reinterpret_cast` / memcpy |
 | Paren Init for Aggregates | C++20 | `make_shared` and emplace work with aggregates — no narrowing bugs |
 | `optional::and_then/or_else` | C++23 | Monadic ops — chain operations on optional without null checks |
 | `std::source_location` | C++20 | Type-safe `__FILE__` / `__LINE__`. Better logging & diagnostics |
 | `std::stacktrace` | C++23 | Portable stack traces for debugging & error reporting |
-| `[assume(expr)](/wiki/assumeexpr/)` | C++23 | Assert invariants to compiler. Enables optimiser, documents intent |
+| `assume(expr)` | C++23 | Assert invariants to compiler. Enables optimiser, documents intent |
 | Implicit Move / NRVO | C++20 | More contexts trigger implicit move — fewer accidental copies |
 
 ---
@@ -202,7 +202,7 @@ From the cross-category diagram:
 
 The source includes a flowchart for choosing features. Decision tree summary:
 
-1. **Performance problem?** → Ranges (lazy), `flat_map`, `assume_aligned`, `[likely](/wiki/likely/)`, coroutines (async I/O)
+1. **Performance problem?** → Ranges (lazy), `flat_map`, `assume_aligned`, `likely`, coroutines (async I/O)
 2. **Compile-time computation?** → `consteval` > `constexpr` > `constinit`
 3. **Error handling without exceptions?** → `std::expected<T,E>` + monadic ops
 4. **Thread management?** → `std::jthread` + `stop_token` + `std::latch/barrier`

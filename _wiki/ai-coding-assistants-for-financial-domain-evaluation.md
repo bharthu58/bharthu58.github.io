@@ -138,4 +138,6 @@ Human engineers must still own: overall architecture, latency budgets, failure m
 - [AI — Claude Code Tips](/wiki/ai-claude-code-tips/) — Claude Code-specific workflow optimisations
 - [AI — Learning Resources & Roadmap](/wiki/ai-learning-resources-roadmap/) — foundational AI knowledge for practitioners
 - [DevOps — IDE Comparison (Cursor vs VS Code)](/wiki/devops-ide-comparison-cursor-vs-vs-code/) — tooling decision for development environment
+- [AI — Tool Selection & Workflow](/wiki/ai-tool-selection-workflow/) — daily workflow: ChatGPT triage → Gemini context → Claude execute
+- [C++ — ULL Developer Skillset](/wiki/c-ull-developer-skillset/) — skills checklist for ULL/HFT systems roles
 

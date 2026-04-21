@@ -55,7 +55,7 @@ Agent Access/rbk-pkm-wiki/
 | Skill | Command | What it does |
 |---|---|---|
 | wiki-ingest | `/wiki-ingest` | Reads `raw/`, synthesises wiki pages, moves sources to `ingested/` |
-| wiki-query | `/wiki-query` | Answers questions from wiki pages with `[wikilink](/wiki/wikilink/)` citations |
+| wiki-query | `/wiki-query` | Answers questions from wiki pages with `wikilink` citations |
 | wiki-lint | `/wiki-lint` | Health-checks links, orphans, stale index entries |
 | wiki-integrate | `/wiki-integrate` | Weaves a new/updated page into the knowledge graph |
 | wiki-crystallize | `/wiki-crystallize` | Distils a session into a structured wiki page |

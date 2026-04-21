@@ -90,6 +90,8 @@ Cursor is built on the VS Code codebase — it retains a familiar interface whil
 
 ## See Also
 
+- [AI — Claude Code Folder Structure](/wiki/ai-claude-code-folder-structure/) — full .claude/ folder blueprint: rules/, hooks/, commands/, skills/, agents/, team vs personal structure
+- [AI — Claude Code Advanced Configuration](/wiki/ai-claude-code-advanced-configuration/) — 6-layer OS system, anti-hallucination protocol, memory/ directory, AAPEV skill pattern, zero-trust hooks, MCP servers, Superpowers plugin
 - [AI — Coding Assistants for Financial Domain Evaluation](/wiki/ai-coding-assistants-for-financial-domain-evaluation/) — how to evaluate AI tools for complex projects
 - [AI — 30-Day Mastery Mind Map](/wiki/ai-30-day-mastery-mind-map/) — Claude Code tips in context of the broader AI tooling landscape
 - [DevOps — IDE Comparison (Cursor vs VS Code)](/wiki/devops-ide-comparison-cursor-vs-vs-code/) — expanded IDE comparison

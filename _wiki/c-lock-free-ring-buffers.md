@@ -103,6 +103,8 @@ Already on Boost?
 
 ## See Also
 
+- [C++ — Atomics and Memory Model](/wiki/c-atomics-and-memory-model/) — the primitives (CAS, memory_order) that make lock-free queues work
 - [C++ — Modern Features Reference (C++20-23)](/wiki/c-modern-features-reference-c20-23/) — C++20 atomics (`atomic_ref`, `atomic::wait/notify`, `atomic<shared_ptr>`) relevant to lock-free programming
 - [C++ — auto Type Deduction Reference](/wiki/c-auto-type-deduction-reference/)
+- [C++ — ULL Developer Skillset](/wiki/c-ull-developer-skillset/) — skills profile for roles requiring lock-free and distributed systems expertise
 

@@ -49,7 +49,7 @@ Every domain in this vault has an MOC in `MOCs/`. The wiki pages linked from the
 
 ## Bidirectional Links: Why They Matter
 
-Wiki-style links (`[page](/wiki/page/)`) are one-way: you can navigate from A to B, but not from B back to A without manually adding a return link. Bidirectional links solve this automatically — the relationship is visible in the *Linked Mentions* panel of **both** notes.
+Wiki-style links (`page`) are one-way: you can navigate from A to B, but not from B back to A without manually adding a return link. Bidirectional links solve this automatically — the relationship is visible in the *Linked Mentions* panel of **both** notes.
 
 This matters because:
 - You can start at any note and navigate outward in any direction

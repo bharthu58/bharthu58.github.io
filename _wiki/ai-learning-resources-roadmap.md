@@ -121,9 +121,11 @@ title: "AI — Learning Resources & Roadmap"
 
 ## See Also
 
+- [AI — Foundational Concepts](/wiki/ai-foundational-concepts/) — 20 core AI concepts explained: neural networks through diffusion models
 - [AI — 30-Day Mastery Mind Map](/wiki/ai-30-day-mastery-mind-map/) — comprehensive tool/workflow/model overview
 - [AI — Open Source RAG Stack](/wiki/ai-open-source-rag-stack/) — tools for building RAG systems
 - [AI — Agent Frameworks (N8N vs LangGraph)](/wiki/ai-agent-frameworks-n8n-vs-langgraph/) — agentic workflow tools
 - [AI — Coding Assistants for Financial Domain Evaluation](/wiki/ai-coding-assistants-for-financial-domain-evaluation/) — applied AI evaluation framework
+- [AI — Neural Networks as Decision Trees](/wiki/ai-neural-networks-as-decision-trees/) — decision tree equivalence: interpretability, inference speed, bias auditing
 - [LLM Wiki Pattern](/wiki/llm-wiki-pattern/) — using LLMs to maintain a compounding knowledge base
 

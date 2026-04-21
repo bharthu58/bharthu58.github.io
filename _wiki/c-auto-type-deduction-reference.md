@@ -62,7 +62,88 @@ const auto& [k, v] = *map.begin();  // read-only binding
 
 ---
 
+---
+
+## Template Type Deduction
+
+`auto` deduction rules are identical to template type deduction. The `ParamType` (how the parameter is declared) determines what `T` becomes.
+
+### Three ParamType categories
+
+**1. Reference or pointer (`T&`, `T*`, `const T&`)**
+
+`T` is deduced as the exact type of the argument; reference-ness of the argument is stripped (already captured by ParamType):
+
+```cpp
+template<class T> void f(T& p);
+int a = 0;          f(a);   // T = int,       param = int&
+const int ca = 0;   f(ca);  // T = const int, param = const int&
+const int& r = ca;  f(r);   // T = const int, param = const int&  (ref stripped)
+```
+
+If ParamType already has `const`, it doesn't need to be part of T:
+```cpp
+template<class T> void f(const T& p);
+f(a);   // T = int,  param = const int&
+f(ca);  // T = int,  param = const int&
+```
+
+**2. By value (`T`) — copy semantics**
+
+Any reference-ness and top-level cv-qualifiers are stripped (making a fresh independent copy):
+
+```cpp
+template<class T> void f(T p);
+f(a);    // T = int,  param = int
+f(ca);   // T = int,  param = int    (const dropped — new copy)
+f(r);    // T = int,  param = int    (ref and const dropped)
+```
+
+Exception: if the argument is `const T* const`, the pointer-target const is preserved (only the pointer's own const is stripped):
+```cpp
+const int* const cpa = &a;
+f(cpa);  // T = const int*, param = const int*
+```
+
+**3. Universal/forwarding reference (`T&&`)**
+
+The only category that can deduce to a reference type. Preserves lvalue vs rvalue:
+
+```cpp
+template<class T> void f(T&& p);
+int a = 0;
+f(a);   // T = int&,       param = int&      (lvalue → lvalue ref)
+f(42);  // T = int,        param = int&&     (rvalue → rvalue ref)
+```
+
+### Perfect forwarding
+
+Universal references enable perfect forwarding — preserving lvalue/rvalue nature of arguments into deeper calls:
+
+```cpp
+template<class T>
+class Wrapper {
+    template<class U>
+    Wrapper(U&& v) : data(std::forward<U>(v)) {}  // lvalue → copy ctor; rvalue → move ctor
+    T data;
+};
+```
+
+### `auto` deduction mirrors template rules
+
+| Template | Equivalent auto |
+|---|---|
+| `T&` param | `auto&` |
+| `const T&` param | `const auto&` |
+| `T` param (copy) | `auto` |
+| `T&&` param (universal) | `auto&&` (forwarding) |
+
+One difference: `auto x = {1,2,3}` deduces `std::initializer_list<int>` — template functions do not accept brace-init lists directly.
+
+---
+
 ## See Also
 
+- [C++ — Compilation Model](/wiki/c-compilation-model/) — RVO/NRVO interacts with deduced return types
 - [C++ — Modern Features Reference (C++20-23)](/wiki/c-modern-features-reference-c20-23/) — C++20/23 feature reference including `auto` params (abbreviated function templates), deducing `this`, and `auto(x)`/`auto{x}` (C++23)
 

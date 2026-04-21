@@ -88,6 +88,7 @@ Two dominant approaches to building AI agent workflows: **N8N** (visual, no-code
 
 ## See Also
 
+- [AI — Agent Systems](/wiki/ai-agent-systems/) — ReAct loop, design patterns (reflection/tool use/planning/multi-agent), multi-agent coordination, guardrails, production concerns
 - [AI — 30-Day Mastery Mind Map](/wiki/ai-30-day-mastery-mind-map/) — n8n as automation infrastructure (section: n8n Platform)
 - [AI — Open Source RAG Stack](/wiki/ai-open-source-rag-stack/) — RAG tooling that integrates with agent frameworks
 - [AI — Learning Resources & Roadmap](/wiki/ai-learning-resources-roadmap/) — where agents fit in the GenAI learning path
