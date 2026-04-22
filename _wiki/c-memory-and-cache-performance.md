@@ -145,4 +145,5 @@ Misaligned SIMD data causes either hardware faults or silent fallback to slower 
 - [C++ — Atomics and Memory Model](/wiki/c-atomics-and-memory-model/) — alignment determines whether `std::atomic<T>` is lock-free
 - [C++ — STL Containers Reference](/wiki/c-stl-containers-reference/) — `std::vector` guarantees alignment for element type; custom allocators needed for over-aligned types
 - [C++ — Modern Features Reference (C++20-23)](/wiki/c-modern-features-reference-c20-23/) — `std::hardware_destructive_interference_size` (C++17), `std::assume_aligned` (C++20)
+- [C++ — Data-Oriented Design (ECS & SoA)](/wiki/c-data-oriented-design-ecs-soa/) — applying cache line knowledge to data layout: AoS vs SoA, 5.67× benchmark, ECS pattern
 

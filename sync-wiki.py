@@ -12,7 +12,7 @@ import re
 import sys
 from pathlib import Path
 
-SOURCE = Path("/mnt/g/My Drive/RBK-OBSIDIAN-NOTES/rbk-obsidian-vault/Agent Access/rbk-pkm-wiki/rbk-main-wiki")
+SOURCE = Path("/mnt/g/My Drive/RBK-OBSIDIAN-NOTES/rbk-obsidian-vault/Agent Access/rbk-pkm-wiki")
 DEST   = Path(__file__).parent / "_wiki"
 SKIP   = {"index.md", "log.md"}
 

@@ -151,4 +151,5 @@ These techniques directly map to HFT/financial data processing:
 - [C++ — Memory and Cache Performance](/wiki/c-memory-and-cache-performance/) — cache line alignment for thread-local structures, false sharing
 - [C++ — STL Containers Reference](/wiki/c-stl-containers-reference/) — why `unordered_map` underperforms for high-volume workloads
 - [C++ — Lock-Free Ring Buffers](/wiki/c-lock-free-ring-buffers/) — the ring-buffer pattern used in the decompression pipeline
+- [C++ — Data-Oriented Design (ECS & SoA)](/wiki/c-data-oriented-design-ecs-soa/) — SoA layout and ECS as complementary data-layout techniques for hot-path loops
 
