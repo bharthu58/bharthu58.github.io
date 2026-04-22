@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "AI — Claude Code .claude/ Folder Structure"
+domain: "AI / LLM"
 ---
 
 ## Purpose

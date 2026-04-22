@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "C++ — Data-Oriented Design (ECS & SoA)"
+domain: "C++ / Systems"
 ---
-
-# C++ — Data-Oriented Design (ECS & SoA)
 
 Data-oriented design (DoD) restructures code around *data transformations* rather than object hierarchies, matching hardware memory access patterns. Related: [C++ — Memory and Cache Performance](/wiki/c-memory-and-cache-performance/), [C++ — High Performance Data Processing](/wiki/c-high-performance-data-processing/).
 
@@ -170,4 +169,3 @@ Libraries like **EnTT** and **flecs** already approximate this with template met
 - [C++ — High Performance Data Processing](/wiki/c-high-performance-data-processing/) — mmap I/O, flat hash tables, NUMA pinning
 - [C++ — ULL Developer Skillset](/wiki/c-ull-developer-skillset/) — hot path skill checklist for HFT/ULL roles
 - [C++ — Modern Features Reference (C++20-23)](/wiki/c-modern-features-reference-c20-23/) — current compile-time and SIMD tooling
-

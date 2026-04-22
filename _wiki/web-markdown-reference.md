@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "WEB — Markdown Reference"
+domain: "Web"
 ---
 
 ## Headings

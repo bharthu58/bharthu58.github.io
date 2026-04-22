@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "C++ — Lock-Free Ring Buffers"
+domain: "C++ / Systems"
 ---
 
 ## Summary

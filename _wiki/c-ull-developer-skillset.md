@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "C++ — ULL Developer Skillset"
+domain: "C++ / Systems"
 ---
-
-# C++ — ULL Developer Skillset
 
 > Skills required for Ultra-Low Latency (ULL) / High-Frequency Trading systems development.
 > [C++ — Modern Features Reference (C++20-23)](/wiki/c-modern-features-reference-c20-23/) | [C++ — Lock-Free Ring Buffers](/wiki/c-lock-free-ring-buffers/)
@@ -42,4 +41,3 @@ title: "C++ — ULL Developer Skillset"
 - [C++ — Modern Features Reference (C++20-23)](/wiki/c-modern-features-reference-c20-23/) — C++20/23 features across performance, concurrency, safety domains
 - [C++ — Lock-Free Ring Buffers](/wiki/c-lock-free-ring-buffers/) — Lock-free data structures: MoodyCamel, rigtorp, Boost.Lockfree, Folly
 - [AI — Coding Assistants for Financial Domain Evaluation](/wiki/ai-coding-assistants-for-financial-domain-evaluation/) — AI tool evaluation specifically for OMS, matching engine, execution gateway work
-

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Linux — WSL2 Obsidian Vault Access"
+domain: "Linux"
 ---
 
 ## Overview

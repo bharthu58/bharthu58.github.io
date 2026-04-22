@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "DevOps — Tool Version Management (mise)"
+domain: "DevOps"
 ---
 
 ## What is mise?

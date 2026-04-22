@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "DevOps — GitHub vs GitLab"
+domain: "DevOps"
 ---
 
 ## Summary

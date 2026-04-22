@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Architecture — System Design Learning"
+domain: "Architecture"
 ---
 
 ## Why System Design Matters

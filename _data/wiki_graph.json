@@ -1,0 +1,918 @@
+{
+  "nodes": [
+    {
+      "id": "overview",
+      "title": "Wiki Overview",
+      "domain": "Meta",
+      "url": "/wiki/overview/"
+    },
+    {
+      "id": "ai-30-day-mastery-mind-map",
+      "title": "AI — 30-Day Mastery Mind Map",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-30-day-mastery-mind-map/"
+    },
+    {
+      "id": "ai-agent-frameworks-n8n-vs-langgraph",
+      "title": "AI — Agent Frameworks (N8N vs LangGraph)",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-agent-frameworks-n8n-vs-langgraph/"
+    },
+    {
+      "id": "ai-agent-systems",
+      "title": "AI — Agent Systems",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-agent-systems/"
+    },
+    {
+      "id": "ai-claude-code-advanced-configuration",
+      "title": "AI — Claude Code Advanced Configuration",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-claude-code-advanced-configuration/"
+    },
+    {
+      "id": "ai-claude-code-folder-structure",
+      "title": "AI — Claude Code .claude/ Folder Structure",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-claude-code-folder-structure/"
+    },
+    {
+      "id": "ai-claude-code-tips",
+      "title": "AI — Claude Code Tips",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-claude-code-tips/"
+    },
+    {
+      "id": "ai-coding-assistants-for-financial-domain-evaluation",
+      "title": "AI — Coding Assistants for Financial Domain Evaluation",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-coding-assistants-for-financial-domain-evaluation/"
+    },
+    {
+      "id": "ai-foundational-concepts",
+      "title": "AI — Foundational Concepts",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-foundational-concepts/"
+    },
+    {
+      "id": "ai-learning-resources-roadmap",
+      "title": "AI — Learning Resources & Roadmap",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-learning-resources-roadmap/"
+    },
+    {
+      "id": "ai-neural-networks-as-decision-trees",
+      "title": "AI — Neural Networks as Decision Trees",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-neural-networks-as-decision-trees/"
+    },
+    {
+      "id": "ai-open-source-rag-stack",
+      "title": "AI — Open Source RAG Stack",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-open-source-rag-stack/"
+    },
+    {
+      "id": "ai-running-ai-locally",
+      "title": "AI — Running AI Locally",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-running-ai-locally/"
+    },
+    {
+      "id": "ai-tool-selection-workflow",
+      "title": "AI — Tool Selection & Workflow",
+      "domain": "AI / LLM",
+      "url": "/wiki/ai-tool-selection-workflow/"
+    },
+    {
+      "id": "architecture-system-design-concepts",
+      "title": "Architecture — System Design Concepts",
+      "domain": "Architecture",
+      "url": "/wiki/architecture-system-design-concepts/"
+    },
+    {
+      "id": "architecture-system-design-learning",
+      "title": "Architecture — System Design Learning",
+      "domain": "Architecture",
+      "url": "/wiki/architecture-system-design-learning/"
+    },
+    {
+      "id": "architecture-system-design-patterns",
+      "title": "Architecture — System Design Patterns",
+      "domain": "Architecture",
+      "url": "/wiki/architecture-system-design-patterns/"
+    },
+    {
+      "id": "c-atomics-and-memory-model",
+      "title": "C++ — Atomics and Memory Model",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-atomics-and-memory-model/"
+    },
+    {
+      "id": "c-compilation-model",
+      "title": "C++ — Compilation Model",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-compilation-model/"
+    },
+    {
+      "id": "c-data-oriented-design-ecs-soa",
+      "title": "C++ — Data-Oriented Design (ECS & SoA)",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-data-oriented-design-ecs-soa/"
+    },
+    {
+      "id": "c-high-performance-data-processing",
+      "title": "C++ — High Performance Data Processing",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-high-performance-data-processing/"
+    },
+    {
+      "id": "c-lock-free-ring-buffers",
+      "title": "C++ — Lock-Free Ring Buffers",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-lock-free-ring-buffers/"
+    },
+    {
+      "id": "c-memory-and-cache-performance",
+      "title": "C++ — Memory and Cache Performance",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-memory-and-cache-performance/"
+    },
+    {
+      "id": "c-modern-c-tooling",
+      "title": "C++ — Modern C++ Tooling",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-modern-c-tooling/"
+    },
+    {
+      "id": "c-modern-features-reference-c20-23",
+      "title": "C++ — Modern Features Reference (C++20-23)",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-modern-features-reference-c20-23/"
+    },
+    {
+      "id": "c-stl-containers-reference",
+      "title": "C++ — STL Containers Reference",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-stl-containers-reference/"
+    },
+    {
+      "id": "c-ull-developer-skillset",
+      "title": "C++ — ULL Developer Skillset",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-ull-developer-skillset/"
+    },
+    {
+      "id": "c-auto-type-deduction-reference",
+      "title": "C++ — auto Type Deduction Reference",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-auto-type-deduction-reference/"
+    },
+    {
+      "id": "c-pimpl-idiom",
+      "title": "C++ — pImpl Idiom",
+      "domain": "C++ / Systems",
+      "url": "/wiki/c-pimpl-idiom/"
+    },
+    {
+      "id": "devops-git-cheat-sheet",
+      "title": "DevOps — Git Cheat Sheet",
+      "domain": "DevOps",
+      "url": "/wiki/devops-git-cheat-sheet/"
+    },
+    {
+      "id": "devops-github-vs-gitlab",
+      "title": "DevOps — GitHub vs GitLab",
+      "domain": "DevOps",
+      "url": "/wiki/devops-github-vs-gitlab/"
+    },
+    {
+      "id": "devops-ide-comparison-cursor-vs-vs-code",
+      "title": "DevOps — IDE Comparison (Cursor vs VS Code)",
+      "domain": "DevOps",
+      "url": "/wiki/devops-ide-comparison-cursor-vs-vs-code/"
+    },
+    {
+      "id": "devops-tool-version-management-mise",
+      "title": "DevOps — Tool Version Management (mise)",
+      "domain": "DevOps",
+      "url": "/wiki/devops-tool-version-management-mise/"
+    },
+    {
+      "id": "linux-commands-reference",
+      "title": "Linux — Commands Reference",
+      "domain": "Linux",
+      "url": "/wiki/linux-commands-reference/"
+    },
+    {
+      "id": "linux-wsl2-obsidian-vault-access",
+      "title": "Linux — WSL2 Obsidian Vault Access",
+      "domain": "Linux",
+      "url": "/wiki/linux-wsl2-obsidian-vault-access/"
+    },
+    {
+      "id": "llm-wiki-pattern",
+      "title": "LLM Wiki Pattern",
+      "domain": "Meta",
+      "url": "/wiki/llm-wiki-pattern/"
+    },
+    {
+      "id": "pkm-note-making-philosophy",
+      "title": "PKM — Note-Making Philosophy",
+      "domain": "PKM",
+      "url": "/wiki/pkm-note-making-philosophy/"
+    },
+    {
+      "id": "pkm-personal-workflow-reference",
+      "title": "PKM — Personal Workflow Reference",
+      "domain": "PKM",
+      "url": "/wiki/pkm-personal-workflow-reference/"
+    },
+    {
+      "id": "obsidian-dataview-queries",
+      "title": "Obsidian — Dataview Queries",
+      "domain": "Obsidian",
+      "url": "/wiki/obsidian-dataview-queries/"
+    },
+    {
+      "id": "obsidian-plugin-recommendations",
+      "title": "Obsidian — Plugin Recommendations",
+      "domain": "Obsidian",
+      "url": "/wiki/obsidian-plugin-recommendations/"
+    },
+    {
+      "id": "obsidian-word-and-google-docs-integration",
+      "title": "Obsidian — Word and Google Docs Integration",
+      "domain": "Obsidian",
+      "url": "/wiki/obsidian-word-and-google-docs-integration/"
+    },
+    {
+      "id": "obsidian-iphone-capture-pipeline",
+      "title": "Obsidian — iPhone Capture Pipeline",
+      "domain": "Obsidian",
+      "url": "/wiki/obsidian-iphone-capture-pipeline/"
+    },
+    {
+      "id": "python-core-language-concepts",
+      "title": "Python — Core Language Concepts",
+      "domain": "Python",
+      "url": "/wiki/python-core-language-concepts/"
+    },
+    {
+      "id": "python-engineering-tools",
+      "title": "Python — Engineering Tools",
+      "domain": "Python",
+      "url": "/wiki/python-engineering-tools/"
+    },
+    {
+      "id": "python-package-management-uv-and-pipx",
+      "title": "Python — Package Management (uv and pipx)",
+      "domain": "Python",
+      "url": "/wiki/python-package-management-uv-and-pipx/"
+    },
+    {
+      "id": "web-markdown-reference",
+      "title": "WEB — Markdown Reference",
+      "domain": "Web",
+      "url": "/wiki/web-markdown-reference/"
+    }
+  ],
+  "links": [
+    {
+      "source": "overview",
+      "target": "pkm-note-making-philosophy"
+    },
+    {
+      "source": "overview",
+      "target": "ai-claude-code-tips"
+    },
+    {
+      "source": "overview",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "overview",
+      "target": "ai-open-source-rag-stack"
+    },
+    {
+      "source": "overview",
+      "target": "ai-agent-frameworks-n8n-vs-langgraph"
+    },
+    {
+      "source": "overview",
+      "target": "ai-coding-assistants-for-financial-domain-evaluation"
+    },
+    {
+      "source": "overview",
+      "target": "ai-30-day-mastery-mind-map"
+    },
+    {
+      "source": "overview",
+      "target": "llm-wiki-pattern"
+    },
+    {
+      "source": "overview",
+      "target": "linux-wsl2-obsidian-vault-access"
+    },
+    {
+      "source": "overview",
+      "target": "devops-ide-comparison-cursor-vs-vs-code"
+    },
+    {
+      "source": "overview",
+      "target": "obsidian-dataview-queries"
+    },
+    {
+      "source": "overview",
+      "target": "c-auto-type-deduction-reference"
+    },
+    {
+      "source": "overview",
+      "target": "devops-tool-version-management-mise"
+    },
+    {
+      "source": "overview",
+      "target": "linux-commands-reference"
+    },
+    {
+      "source": "overview",
+      "target": "web-markdown-reference"
+    },
+    {
+      "source": "overview",
+      "target": "python-package-management-uv-and-pipx"
+    },
+    {
+      "source": "overview",
+      "target": "devops-github-vs-gitlab"
+    },
+    {
+      "source": "overview",
+      "target": "c-lock-free-ring-buffers"
+    },
+    {
+      "source": "overview",
+      "target": "obsidian-word-and-google-docs-integration"
+    },
+    {
+      "source": "overview",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "overview",
+      "target": "devops-git-cheat-sheet"
+    },
+    {
+      "source": "overview",
+      "target": "obsidian-plugin-recommendations"
+    },
+    {
+      "source": "ai-30-day-mastery-mind-map",
+      "target": "ai-agent-frameworks-n8n-vs-langgraph"
+    },
+    {
+      "source": "ai-30-day-mastery-mind-map",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "ai-30-day-mastery-mind-map",
+      "target": "ai-claude-code-tips"
+    },
+    {
+      "source": "ai-30-day-mastery-mind-map",
+      "target": "ai-open-source-rag-stack"
+    },
+    {
+      "source": "ai-agent-frameworks-n8n-vs-langgraph",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "ai-agent-frameworks-n8n-vs-langgraph",
+      "target": "ai-agent-systems"
+    },
+    {
+      "source": "ai-agent-frameworks-n8n-vs-langgraph",
+      "target": "ai-open-source-rag-stack"
+    },
+    {
+      "source": "ai-agent-frameworks-n8n-vs-langgraph",
+      "target": "ai-30-day-mastery-mind-map"
+    },
+    {
+      "source": "ai-agent-systems",
+      "target": "ai-agent-frameworks-n8n-vs-langgraph"
+    },
+    {
+      "source": "ai-agent-systems",
+      "target": "ai-claude-code-advanced-configuration"
+    },
+    {
+      "source": "ai-agent-systems",
+      "target": "ai-open-source-rag-stack"
+    },
+    {
+      "source": "ai-claude-code-advanced-configuration",
+      "target": "ai-agent-systems"
+    },
+    {
+      "source": "ai-claude-code-advanced-configuration",
+      "target": "ai-claude-code-folder-structure"
+    },
+    {
+      "source": "ai-claude-code-advanced-configuration",
+      "target": "ai-claude-code-tips"
+    },
+    {
+      "source": "ai-claude-code-folder-structure",
+      "target": "ai-tool-selection-workflow"
+    },
+    {
+      "source": "ai-claude-code-folder-structure",
+      "target": "ai-claude-code-advanced-configuration"
+    },
+    {
+      "source": "ai-claude-code-folder-structure",
+      "target": "ai-claude-code-tips"
+    },
+    {
+      "source": "ai-claude-code-folder-structure",
+      "target": "pkm-personal-workflow-reference"
+    },
+    {
+      "source": "ai-claude-code-tips",
+      "target": "devops-ide-comparison-cursor-vs-vs-code"
+    },
+    {
+      "source": "ai-claude-code-tips",
+      "target": "ai-claude-code-folder-structure"
+    },
+    {
+      "source": "ai-claude-code-tips",
+      "target": "ai-coding-assistants-for-financial-domain-evaluation"
+    },
+    {
+      "source": "ai-claude-code-tips",
+      "target": "ai-30-day-mastery-mind-map"
+    },
+    {
+      "source": "ai-claude-code-tips",
+      "target": "ai-claude-code-advanced-configuration"
+    },
+    {
+      "source": "ai-coding-assistants-for-financial-domain-evaluation",
+      "target": "devops-ide-comparison-cursor-vs-vs-code"
+    },
+    {
+      "source": "ai-coding-assistants-for-financial-domain-evaluation",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "ai-coding-assistants-for-financial-domain-evaluation",
+      "target": "ai-tool-selection-workflow"
+    },
+    {
+      "source": "ai-coding-assistants-for-financial-domain-evaluation",
+      "target": "c-ull-developer-skillset"
+    },
+    {
+      "source": "ai-coding-assistants-for-financial-domain-evaluation",
+      "target": "ai-claude-code-tips"
+    },
+    {
+      "source": "ai-foundational-concepts",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "ai-foundational-concepts",
+      "target": "ai-agent-systems"
+    },
+    {
+      "source": "ai-foundational-concepts",
+      "target": "ai-open-source-rag-stack"
+    },
+    {
+      "source": "ai-learning-resources-roadmap",
+      "target": "ai-open-source-rag-stack"
+    },
+    {
+      "source": "ai-learning-resources-roadmap",
+      "target": "ai-agent-frameworks-n8n-vs-langgraph"
+    },
+    {
+      "source": "ai-learning-resources-roadmap",
+      "target": "ai-coding-assistants-for-financial-domain-evaluation"
+    },
+    {
+      "source": "ai-learning-resources-roadmap",
+      "target": "ai-30-day-mastery-mind-map"
+    },
+    {
+      "source": "ai-learning-resources-roadmap",
+      "target": "ai-foundational-concepts"
+    },
+    {
+      "source": "ai-learning-resources-roadmap",
+      "target": "llm-wiki-pattern"
+    },
+    {
+      "source": "ai-learning-resources-roadmap",
+      "target": "ai-neural-networks-as-decision-trees"
+    },
+    {
+      "source": "ai-neural-networks-as-decision-trees",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "ai-neural-networks-as-decision-trees",
+      "target": "ai-30-day-mastery-mind-map"
+    },
+    {
+      "source": "ai-open-source-rag-stack",
+      "target": "ai-agent-frameworks-n8n-vs-langgraph"
+    },
+    {
+      "source": "ai-open-source-rag-stack",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "ai-open-source-rag-stack",
+      "target": "llm-wiki-pattern"
+    },
+    {
+      "source": "ai-open-source-rag-stack",
+      "target": "ai-30-day-mastery-mind-map"
+    },
+    {
+      "source": "ai-running-ai-locally",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "ai-running-ai-locally",
+      "target": "ai-foundational-concepts"
+    },
+    {
+      "source": "ai-tool-selection-workflow",
+      "target": "ai-coding-assistants-for-financial-domain-evaluation"
+    },
+    {
+      "source": "ai-tool-selection-workflow",
+      "target": "ai-claude-code-tips"
+    },
+    {
+      "source": "ai-tool-selection-workflow",
+      "target": "ai-30-day-mastery-mind-map"
+    },
+    {
+      "source": "architecture-system-design-concepts",
+      "target": "c-lock-free-ring-buffers"
+    },
+    {
+      "source": "architecture-system-design-concepts",
+      "target": "architecture-system-design-learning"
+    },
+    {
+      "source": "architecture-system-design-concepts",
+      "target": "architecture-system-design-patterns"
+    },
+    {
+      "source": "architecture-system-design-learning",
+      "target": "ai-learning-resources-roadmap"
+    },
+    {
+      "source": "architecture-system-design-learning",
+      "target": "architecture-system-design-patterns"
+    },
+    {
+      "source": "architecture-system-design-learning",
+      "target": "pkm-personal-workflow-reference"
+    },
+    {
+      "source": "architecture-system-design-learning",
+      "target": "architecture-system-design-concepts"
+    },
+    {
+      "source": "architecture-system-design-patterns",
+      "target": "c-lock-free-ring-buffers"
+    },
+    {
+      "source": "architecture-system-design-patterns",
+      "target": "architecture-system-design-learning"
+    },
+    {
+      "source": "architecture-system-design-patterns",
+      "target": "architecture-system-design-concepts"
+    },
+    {
+      "source": "c-atomics-and-memory-model",
+      "target": "c-lock-free-ring-buffers"
+    },
+    {
+      "source": "c-atomics-and-memory-model",
+      "target": "c-memory-and-cache-performance"
+    },
+    {
+      "source": "c-atomics-and-memory-model",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-compilation-model",
+      "target": "c-pimpl-idiom"
+    },
+    {
+      "source": "c-compilation-model",
+      "target": "c-auto-type-deduction-reference"
+    },
+    {
+      "source": "c-compilation-model",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-data-oriented-design-ecs-soa",
+      "target": "c-ull-developer-skillset"
+    },
+    {
+      "source": "c-data-oriented-design-ecs-soa",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-data-oriented-design-ecs-soa",
+      "target": "c-memory-and-cache-performance"
+    },
+    {
+      "source": "c-data-oriented-design-ecs-soa",
+      "target": "c-high-performance-data-processing"
+    },
+    {
+      "source": "c-high-performance-data-processing",
+      "target": "c-lock-free-ring-buffers"
+    },
+    {
+      "source": "c-high-performance-data-processing",
+      "target": "c-stl-containers-reference"
+    },
+    {
+      "source": "c-high-performance-data-processing",
+      "target": "c-memory-and-cache-performance"
+    },
+    {
+      "source": "c-high-performance-data-processing",
+      "target": "c-data-oriented-design-ecs-soa"
+    },
+    {
+      "source": "c-high-performance-data-processing",
+      "target": "c-atomics-and-memory-model"
+    },
+    {
+      "source": "c-lock-free-ring-buffers",
+      "target": "c-ull-developer-skillset"
+    },
+    {
+      "source": "c-lock-free-ring-buffers",
+      "target": "c-atomics-and-memory-model"
+    },
+    {
+      "source": "c-lock-free-ring-buffers",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-lock-free-ring-buffers",
+      "target": "c-auto-type-deduction-reference"
+    },
+    {
+      "source": "c-memory-and-cache-performance",
+      "target": "c-stl-containers-reference"
+    },
+    {
+      "source": "c-memory-and-cache-performance",
+      "target": "c-atomics-and-memory-model"
+    },
+    {
+      "source": "c-memory-and-cache-performance",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-memory-and-cache-performance",
+      "target": "c-data-oriented-design-ecs-soa"
+    },
+    {
+      "source": "c-modern-c-tooling",
+      "target": "c-ull-developer-skillset"
+    },
+    {
+      "source": "c-modern-c-tooling",
+      "target": "c-lock-free-ring-buffers"
+    },
+    {
+      "source": "c-modern-c-tooling",
+      "target": "c-atomics-and-memory-model"
+    },
+    {
+      "source": "c-modern-c-tooling",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-modern-features-reference-c20-23",
+      "target": "llm-wiki-pattern"
+    },
+    {
+      "source": "c-stl-containers-reference",
+      "target": "c-lock-free-ring-buffers"
+    },
+    {
+      "source": "c-stl-containers-reference",
+      "target": "c-memory-and-cache-performance"
+    },
+    {
+      "source": "c-stl-containers-reference",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-ull-developer-skillset",
+      "target": "c-lock-free-ring-buffers"
+    },
+    {
+      "source": "c-ull-developer-skillset",
+      "target": "ai-coding-assistants-for-financial-domain-evaluation"
+    },
+    {
+      "source": "c-ull-developer-skillset",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-auto-type-deduction-reference",
+      "target": "c-compilation-model"
+    },
+    {
+      "source": "c-auto-type-deduction-reference",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "c-pimpl-idiom",
+      "target": "c-compilation-model"
+    },
+    {
+      "source": "c-pimpl-idiom",
+      "target": "c-memory-and-cache-performance"
+    },
+    {
+      "source": "c-pimpl-idiom",
+      "target": "c-modern-features-reference-c20-23"
+    },
+    {
+      "source": "devops-git-cheat-sheet",
+      "target": "devops-tool-version-management-mise"
+    },
+    {
+      "source": "devops-git-cheat-sheet",
+      "target": "devops-github-vs-gitlab"
+    },
+    {
+      "source": "devops-github-vs-gitlab",
+      "target": "devops-tool-version-management-mise"
+    },
+    {
+      "source": "devops-github-vs-gitlab",
+      "target": "devops-ide-comparison-cursor-vs-vs-code"
+    },
+    {
+      "source": "devops-ide-comparison-cursor-vs-vs-code",
+      "target": "devops-tool-version-management-mise"
+    },
+    {
+      "source": "devops-ide-comparison-cursor-vs-vs-code",
+      "target": "ai-coding-assistants-for-financial-domain-evaluation"
+    },
+    {
+      "source": "devops-ide-comparison-cursor-vs-vs-code",
+      "target": "ai-claude-code-tips"
+    },
+    {
+      "source": "devops-tool-version-management-mise",
+      "target": "python-package-management-uv-and-pipx"
+    },
+    {
+      "source": "devops-tool-version-management-mise",
+      "target": "devops-github-vs-gitlab"
+    },
+    {
+      "source": "linux-commands-reference",
+      "target": "linux-wsl2-obsidian-vault-access"
+    },
+    {
+      "source": "linux-wsl2-obsidian-vault-access",
+      "target": "linux-commands-reference"
+    },
+    {
+      "source": "linux-wsl2-obsidian-vault-access",
+      "target": "obsidian-word-and-google-docs-integration"
+    },
+    {
+      "source": "llm-wiki-pattern",
+      "target": "pkm-note-making-philosophy"
+    },
+    {
+      "source": "llm-wiki-pattern",
+      "target": "obsidian-word-and-google-docs-integration"
+    },
+    {
+      "source": "pkm-note-making-philosophy",
+      "target": "llm-wiki-pattern"
+    },
+    {
+      "source": "pkm-note-making-philosophy",
+      "target": "overview"
+    },
+    {
+      "source": "pkm-note-making-philosophy",
+      "target": "obsidian-plugin-recommendations"
+    },
+    {
+      "source": "pkm-personal-workflow-reference",
+      "target": "llm-wiki-pattern"
+    },
+    {
+      "source": "pkm-personal-workflow-reference",
+      "target": "pkm-note-making-philosophy"
+    },
+    {
+      "source": "pkm-personal-workflow-reference",
+      "target": "obsidian-iphone-capture-pipeline"
+    },
+    {
+      "source": "pkm-personal-workflow-reference",
+      "target": "overview"
+    },
+    {
+      "source": "obsidian-dataview-queries",
+      "target": "llm-wiki-pattern"
+    },
+    {
+      "source": "obsidian-dataview-queries",
+      "target": "overview"
+    },
+    {
+      "source": "obsidian-dataview-queries",
+      "target": "obsidian-plugin-recommendations"
+    },
+    {
+      "source": "obsidian-plugin-recommendations",
+      "target": "pkm-note-making-philosophy"
+    },
+    {
+      "source": "obsidian-plugin-recommendations",
+      "target": "obsidian-word-and-google-docs-integration"
+    },
+    {
+      "source": "obsidian-plugin-recommendations",
+      "target": "obsidian-dataview-queries"
+    },
+    {
+      "source": "obsidian-word-and-google-docs-integration",
+      "target": "llm-wiki-pattern"
+    },
+    {
+      "source": "obsidian-iphone-capture-pipeline",
+      "target": "pkm-note-making-philosophy"
+    },
+    {
+      "source": "obsidian-iphone-capture-pipeline",
+      "target": "obsidian-plugin-recommendations"
+    },
+    {
+      "source": "obsidian-iphone-capture-pipeline",
+      "target": "pkm-personal-workflow-reference"
+    },
+    {
+      "source": "python-core-language-concepts",
+      "target": "python-engineering-tools"
+    },
+    {
+      "source": "python-core-language-concepts",
+      "target": "python-package-management-uv-and-pipx"
+    },
+    {
+      "source": "python-engineering-tools",
+      "target": "python-core-language-concepts"
+    },
+    {
+      "source": "python-engineering-tools",
+      "target": "python-package-management-uv-and-pipx"
+    },
+    {
+      "source": "python-engineering-tools",
+      "target": "c-modern-c-tooling"
+    },
+    {
+      "source": "python-package-management-uv-and-pipx",
+      "target": "devops-tool-version-management-mise"
+    },
+    {
+      "source": "python-package-management-uv-and-pipx",
+      "target": "devops-github-vs-gitlab"
+    },
+    {
+      "source": "web-markdown-reference",
+      "target": "llm-wiki-pattern"
+    }
+  ]
+}

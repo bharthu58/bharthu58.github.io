@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "LLM Wiki Pattern"
+domain: "Meta"
 ---
 
 ## What It Is

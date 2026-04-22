@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "AI — Open Source RAG Stack"
+domain: "AI / LLM"
 ---
 
 

@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "PKM — Personal Workflow Reference"
+domain: "PKM"
 ---
-
-# PKM — Personal Workflow Reference
 
 *Your system, your rules. Read this until the habits are automatic.*
 
@@ -104,4 +103,3 @@ The bootcamp is where you learn. The wiki is where you keep it.
 
 ## Related
 [PKM — Note-Making Philosophy](/wiki/pkm-note-making-philosophy/) · [LLM Wiki Pattern](/wiki/llm-wiki-pattern/) · [Overview](/wiki/overview/) · [Obsidian — iPhone Capture Pipeline](/wiki/obsidian-iphone-capture-pipeline/)
-

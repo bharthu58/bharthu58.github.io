@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "C++ — auto Type Deduction Reference"
+domain: "C++ / Systems"
 ---
 
 ## Quick Reference: `auto` Type Deduction

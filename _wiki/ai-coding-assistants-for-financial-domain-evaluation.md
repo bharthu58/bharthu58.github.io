@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "AI — Coding Assistants for Financial Domain Evaluation"
+domain: "AI / LLM"
 ---
 
 ## Context

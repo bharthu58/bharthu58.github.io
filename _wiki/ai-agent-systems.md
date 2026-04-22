@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "AI — Agent Systems"
+domain: "AI / LLM"
 ---
-
-# AI — Agent Systems
 
 Covers the architecture, design patterns, and production concerns for LLM-powered agents.
 
@@ -144,4 +143,3 @@ Multiple specialised agents collaborate, each with a focused role:
 - **Sandbox all code execution** — agents that write and run code must be isolated (container, VM, subprocess with no network/FS access by default)
 - **Prompt injection defence** — treat all external data (web scrapes, user files) as untrusted; never inject raw external content directly into the system prompt
 - Tool permissions: grant least privilege; a search tool should not have write access
-

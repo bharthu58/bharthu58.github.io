@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "C++ — Atomics and Memory Model"
+domain: "C++ / Systems"
 ---
 
 ## Core Rule

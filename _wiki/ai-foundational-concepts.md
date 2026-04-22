@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "AI — Foundational Concepts"
+domain: "AI / LLM"
 ---
-
-# AI — Foundational Concepts
 
 20 core concepts from neural networks through diffusion models, grouped by conceptual layer.
 
@@ -92,4 +91,3 @@ An LLM + a tool-use loop + memory. The model decides which tool to call, receive
 
 ### 20. Diffusion Models
 Generate data by learning to reverse a gradual noising process. Training: add noise to real data in steps. Inference: start from pure noise and denoise step-by-step, guided by a conditioning signal (text prompt). Dominant architecture for image generation (Stable Diffusion, DALL-E, Midjourney) and increasingly for audio and video.
-

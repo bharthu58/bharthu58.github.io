@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "AI — 30-Day Mastery Mind Map"
+domain: "AI / LLM"
 ---
 
 

@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "PKM — Note-Making Philosophy"
+domain: "PKM"
 ---
-
-# PKM — Note-Making Philosophy
 
 > The distinction between passive note-taking and active note-making is the key philosophical difference between a vault that compounds and one that stagnates.
 
@@ -98,4 +97,3 @@ Knowledge you never revisit doesn't compound. Practical review mechanisms:
 
 ## Related Pages
 [LLM Wiki Pattern](/wiki/llm-wiki-pattern/), [Obsidian — Plugin Recommendations](/wiki/obsidian-plugin-recommendations/), [Overview](/wiki/overview/)
-

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "AI — Agent Frameworks (N8N vs LangGraph)"
+domain: "AI / LLM"
 ---
 
 

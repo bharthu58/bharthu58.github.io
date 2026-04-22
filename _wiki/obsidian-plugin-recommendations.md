@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Obsidian — Plugin Recommendations"
+domain: "Obsidian"
 ---
-
-# Obsidian — Plugin Recommendations
 
 > Curated plugin list for an engineering/technical Obsidian setup. Covers navigation, task tracking, knowledge management, and daily planning.
 
@@ -107,4 +106,3 @@ Status bar shows current block and next block at all times.
 
 ## Related Pages
 [Obsidian — Dataview Queries](/wiki/obsidian-dataview-queries/), [Obsidian — Word and Google Docs Integration](/wiki/obsidian-word-and-google-docs-integration/), [PKM — Note-Making Philosophy](/wiki/pkm-note-making-philosophy/)
-

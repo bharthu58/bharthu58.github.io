@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Obsidian — Dataview Queries"
+domain: "Obsidian"
 ---
-
-# Obsidian — Dataview Queries
 
 > Dataview turns your vault into a live database. Every wiki page already has `title`, `version`, `date`, and `changes` YAML frontmatter — all queryable now.
 
@@ -125,4 +124,3 @@ These queries are already live in `Overview.md`. You can also add them to:
 
 ## Related Pages
 [Obsidian — Plugin Recommendations](/wiki/obsidian-plugin-recommendations/), [LLM Wiki Pattern](/wiki/llm-wiki-pattern/), [Overview](/wiki/overview/)
-

@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "AI — Claude Code Advanced Configuration"
+domain: "AI / LLM"
 ---
-
-# AI — Claude Code Advanced Configuration
 
 Advanced configuration patterns treating Claude Code as a programmable OS: CLAUDE.md as kernel, memory/ for state, skills for commands, agents for workers, hooks for security, and MCP servers for I/O.
 
@@ -193,4 +192,3 @@ An installable plugin that enforces a senior-engineer workflow:
 - **Systematic Debugging** — 4-phase root cause process (observe, isolate, hypothesise, verify)
 - **Git Worktrees** — isolated workspaces per task for clean branch management
 - **Automated Code Review** — checks code against the plan and quality standards before task close
-

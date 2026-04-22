@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Python — Package Management (uv and pipx)"
+domain: "Python"
 ---
 
 ## Overview

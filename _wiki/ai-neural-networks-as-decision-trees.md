@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "AI — Neural Networks as Decision Trees"
+domain: "AI / LLM"
 ---
-
-# AI — Neural Networks as Decision Trees
 
 > Source: *10-Minute System Design* — "What Are Neural Networks and How Do They Work?"
 > [AI — Learning Resources & Roadmap](/wiki/ai-learning-resources-roadmap/) | [AI — 30-Day Mastery Mind Map](/wiki/ai-30-day-mastery-mind-map/)
@@ -74,4 +73,3 @@ Understanding **how** a model makes decisions (not just what it outputs) is a pr
 
 - [AI — Learning Resources & Roadmap](/wiki/ai-learning-resources-roadmap/) — Deep learning foundations: neural networks, backprop, activation functions
 - [AI — 30-Day Mastery Mind Map](/wiki/ai-30-day-mastery-mind-map/) — Model interpretability and XAI tools in the broader AI landscape
-

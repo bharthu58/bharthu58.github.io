@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "C++ — pImpl Idiom"
+domain: "C++ / Systems"
 ---
 
 ## What pImpl Solves

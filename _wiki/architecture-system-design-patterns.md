@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Architecture — System Design Patterns"
+domain: "Architecture"
 ---
 
 ## Overview

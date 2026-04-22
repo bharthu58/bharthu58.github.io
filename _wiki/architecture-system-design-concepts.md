@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Architecture — System Design Concepts"
+domain: "Architecture"
 ---
 
 ## Overview

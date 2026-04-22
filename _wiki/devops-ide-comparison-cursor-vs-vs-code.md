@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "DevOps — IDE Comparison (Cursor vs VS Code)"
+domain: "DevOps"
 ---
 
 ## Overview

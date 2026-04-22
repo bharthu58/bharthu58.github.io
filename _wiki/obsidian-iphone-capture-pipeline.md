@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Obsidian — iPhone Capture Pipeline"
+domain: "Obsidian"
 ---
-
-# Obsidian — iPhone Capture Pipeline
 
 Quick-capture workflow for ideas on iOS without an Obsidian Sync plan.
 
@@ -112,4 +111,3 @@ Look at:
 - [PKM — Personal Workflow Reference](/wiki/pkm-personal-workflow-reference/)
 - [PKM — Note-Making Philosophy](/wiki/pkm-note-making-philosophy/)
 - [Obsidian — Plugin Recommendations](/wiki/obsidian-plugin-recommendations/)
-

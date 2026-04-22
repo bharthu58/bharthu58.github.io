@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "AI — Learning Resources & Roadmap"
+domain: "AI / LLM"
 ---
 
 ## The AI Hierarchy

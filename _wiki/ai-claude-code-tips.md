@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "AI — Claude Code Tips"
+domain: "AI / LLM"
 ---
 
 ## 10 Tips from the Claude Code Team

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Python — Core Language Concepts"
+domain: "Python"
 ---
 
 ## Mutable vs Immutable Objects

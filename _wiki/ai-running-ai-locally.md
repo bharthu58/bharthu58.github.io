@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "AI — Running AI Locally"
+domain: "AI / LLM"
 ---
-
-# AI — Running AI Locally
 
 Setup guide for running LLM models locally, from a basic laptop through a multi-user team server.
 
@@ -120,4 +119,3 @@ For most local use: **Q4 or Q5**. Q8 if you have VRAM to spare and want maximum 
 - **Speed on CPU** — 3–8 tokens/sec on a CPU-only laptop; acceptable for drafting, not for interactive chat
 - **Manual updates** — new model versions don't auto-install; you pull and switch manually
 - **Context window** — most local models cap at 8K–32K tokens vs 200K+ for cloud models
-

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Obsidian — Word and Google Docs Integration"
+domain: "Obsidian"
 ---
 
 ## Overview

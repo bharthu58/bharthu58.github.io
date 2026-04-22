@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "AI — Tool Selection & Workflow"
+domain: "AI / LLM"
 ---
-
-# AI — Tool Selection & Workflow
 
 > Optimised for a C++ / financial systems engineering context.
 > [AI — Coding Assistants for Financial Domain Evaluation](/wiki/ai-coding-assistants-for-financial-domain-evaluation/) | [AI — 30-Day Mastery Mind Map](/wiki/ai-30-day-mastery-mind-map/)
@@ -56,4 +55,3 @@ Always escalate from cheapest to most powerful:
 - [AI — Coding Assistants for Financial Domain Evaluation](/wiki/ai-coding-assistants-for-financial-domain-evaluation/) — Detailed evaluation framework for AI coding tools on OMS, matching engine, algo trading
 - [AI — 30-Day Mastery Mind Map](/wiki/ai-30-day-mastery-mind-map/) — Broader tool/model/workflow reference
 - [AI — Claude Code Tips](/wiki/ai-claude-code-tips/) — Claude Code-specific usage tips
-

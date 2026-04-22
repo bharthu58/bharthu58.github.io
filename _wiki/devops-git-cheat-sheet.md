@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "DevOps — Git Cheat Sheet"
+domain: "DevOps"
 ---
 
 ## Setup

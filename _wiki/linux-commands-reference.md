@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Linux — Commands Reference"
+domain: "Linux"
 ---
 
 ## Most Used Linux Commands (ByteByteGo)
