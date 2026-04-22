@@ -113,7 +113,6 @@ order: 7
   const tooltip = document.getElementById("graph-tooltip");
   const legend  = document.getElementById("graph-legend");
 
-  // Build legend
   const domains = [...new Set(RAW.nodes.map(n => n.domain))].sort();
   legend.innerHTML = domains.map(d =>
     `<div><span class="dot" style="background:${DOMAIN_COLOR[d] || '#999'}"></span>${d}</div>`
@@ -122,14 +121,12 @@ order: 7
   const W = () => wrap.clientWidth;
   const H = () => wrap.clientHeight;
 
-  // Deep-clone nodes/links so D3 mutation doesn't corrupt RAW
   const nodes = RAW.nodes.map(d => ({ ...d }));
   const nodeById = Object.fromEntries(nodes.map(n => [n.id, n]));
   const links = RAW.links
     .filter(l => nodeById[l.source] && nodeById[l.target])
     .map(l => ({ source: l.source, target: l.target }));
 
-  // Degree for sizing nodes
   const degree = {};
   nodes.forEach(n => { degree[n.id] = 0; });
   links.forEach(l => {
@@ -140,7 +137,6 @@ order: 7
 
   const g = svg.append("g");
 
-  // Arrow marker
   svg.append("defs").append("marker")
     .attr("id", "arrow")
     .attr("viewBox", "0 -4 8 8")
@@ -217,7 +213,6 @@ order: 7
         .attr("cy", d => d.y);
     });
 
-  // Zoom
   const zoom = d3.zoom()
     .scaleExtent([0.2, 4])
     .on("zoom", e => g.attr("transform", e.transform));
@@ -231,7 +226,6 @@ order: 7
   document.getElementById("btn-reset").onclick    = () =>
     svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
 
-  // Re-center force when container resizes
   new ResizeObserver(() => {
     simulation.force("center", d3.forceCenter(W() / 2, H() / 2)).alpha(0.1).restart();
   }).observe(wrap);
